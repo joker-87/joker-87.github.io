@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
 body{
     background-image: url(../images/bg.jpg);
     background-size: cover;
@@ -22,14 +25,28 @@ body::-webkit-scrollbar-thumb {
 .header_links{
     display: flex;
     justify-content: right;
-    color: white;
+    color:  #fec0b2 ;
+    font-family: 'Oxygen', sans-serif;
 }
 
-.center{
+.h2-class{
     display: flex;
     justify-content: center;
-    color: white;
+    color:  #fec0b2 ;
+    font-family: 'Oxygen', sans-serif;
 }
+
+.h3-class{
+    display: flex;
+    justify-content: center;
+    color:  #fec0b2 ;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.ul-class{
+    font-family: 'Oxygen', sans-serif;
+}
+
 
 .contact_nav{
     color: white;
