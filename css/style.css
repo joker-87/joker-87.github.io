@@ -1,0 +1,40 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+    width: 0.01em; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+}
+
+.Joker-pc_logo{
+    display: block;
+    margin: auto;
+}
+
+.header_links{
+    display: flex;
+    justify-content: right;
+    color: white;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contact_nav{
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
